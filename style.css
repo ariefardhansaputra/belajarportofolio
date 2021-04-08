@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* navbar styling  */
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    background:chocolate;
+    padding: 10px 0;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a {
+    color: ivory;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.navbar .menu li a {
+    color: ivory;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url(arief.jpg);
+    background-size: auto 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    min-height: 300px;
+    font-style: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: chocolate;
+}
